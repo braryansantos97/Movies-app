@@ -39,7 +39,7 @@ export default function App(props) {
   };
   return (
     <div className="MoviePage">
-      <h2>Movie Pedia</h2>
+      <h1 className="display-1">Movie Pedia</h1>
         <form onSubmit={handleSubmit} className="">
             <div className="row justify-content-center">
                 <input id="title" type="text" className="form-control text-center" placeholder="Enter Movie Title" value={title} onChange={handleChange} />
